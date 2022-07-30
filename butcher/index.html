@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <video controls src="video/video.mp4"></video>
+    </section>
+
+    <!-- Video info & Up next -->
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#Motivation</li>
+            <li>#Inspirational</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >Fake Beggar GETS EXPOSED On Camera, They Live To Regret It | Dhar Mann
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">15,523,034 vizionari  Premiera pe Sep 28, 2021</span>
+        </div>
+        <!-- Actions buttons -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>300K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>10K</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/avatar.png" alt="" />
+            <div class="info">
+              <span class="name">Dhar Mann</span>
+              <span class="subscribers">16.2M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/1.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >DORKY KID Picked On In SCHOOL, What Happens Is Shocking | Dhar Mann</span
+              >
+              <span class="name">Dhar Mann</span>
+              <span class="views">3,5 MIL vizionari</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/2.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >11-Year-Old ARRESTED At SCHOOL, What Happens Next Is Shocking | Dhar Mann</span
+              >
+              <span class="name">Dhar Mann</span>
+              <span class="views">10 MIL vizionari</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/3.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >KID PULLS Fire Alarm To SKIP TEST, He Lives To Regret It | Dhar Mann</span
+              >
+              <span class="name">Dhar Mann</span>
+              <span class="views">12 MIL vizionari</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
